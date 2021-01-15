@@ -6,7 +6,6 @@ sketching and building stuff and this was a great way of getting practice doing 
 three things. Since this was my introduction to web development I decided to build it using only 
 vanilla HTML, CSS and Javascript.
 
-www.eriklindernoren.se
 ![alt tag](http://eriklindernoren.se/images/site_full.jpeg)
 
 
