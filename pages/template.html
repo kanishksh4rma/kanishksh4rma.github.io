@@ -1,104 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Template</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> 
- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
- <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet"> 
-</head>
-<body>
-	<div class="whole-page">
-		<div class="navbar">
-			<div id="logo">
-					<b>Kanishk</b>
-				</div>
-				<div class="menu">
-					<ul>
-						<p>Home</p>
-						<p>Work</p>
-						<p>Port</p>
-						<p>Blog</p>
-					</ul>
-				</div>
-		</div>
-		<div class="main-body">
-			<h1 class="title">
-				What to do after installing Arch Linux?
-			</h1>
-			<ul>
-				<li>
-					<a href="#">tag#1</a>
-				</li>
-				<li>
-					<a href="#">tag#1</a>
-				</li>
-				<li>
-					<a href="#">tag#1</a>
-				</li>
-			</ul> 
-		
-			<img src="../assets/arch.png">
-		
-		<p>
-			A vanilla Arch Linux installation gives you your base operating system with no utilities, allowing you to choose what you want your Operating System to behave like. This allows the user to have complete access over their operating system.
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="whole-page">
+      <div class="navbar">
+        <div id="logo">
+          <b>Kanishk</b>
+        </div>
+        <div class="menu">
+          <ul>
+            <p>Home</p>
+            <p>Work</p>
+            <p>Port</p>
+            <p>Blog</p>
+          </ul>
+        </div>
+      </div>
+      <div class="main-body">
+        <h1 class="title">What to do after installing Arch Linux?</h1>
+        <ul>
+          <li>
+            <a href="#">#archlinux</a>
+          </li>
+          <li>
+            <a href="#">#setup</a>
+          </li>
+          <li>
+            <a href="#">#linux</a>
+          </li>
+        </ul>
 
-A vanilla installation leaves you with nothing more than just a black screen which is for you to customize. In this module, we’ll be walking through the essential things to do after installing Arch Linux.
-		</p>
+        <img src="../assets/arch.png" />
 
-		<!-- step 1 -->
-		<h4 class="guide-headings">
-			1. Update The System
-		</h4>
-		<img src="../assets/arch.png">
-		<div class="code">
-			<span id="sudo">sudo</span> pacman -Syyu
-		</div>
+        <p>
+          A vanilla Arch Linux installation gives you your base operating system
+          with no utilities, allowing you to choose what you want your Operating
+          System to behave like. This allows the user to have complete access
+          over their operating system. A vanilla installation leaves you with
+          nothing more than just a black screen which is for you to customize.
+          In this module, we’ll be walking through the essential things to do
+          after installing Arch Linux.
+        </p>
 
-		<!-- step 2 -->
-		<h4 class="guide-headings">
-		2. Install A Desktop Environment
-		</h4>
-		<p>To install Xfce4:</p>
-		<div class="code">
-			<span id="sudo">sudo</span> pacman -S xfce4 xfce4-goodies
-		</div>
+        <!-- step 1 -->
+        <h4 class="guide-headings">1. Update The System</h4>
+        <img src="../assets/arch.png" />
+        <div class="code"><span id="sudo">sudo</span> pacman -Syyu</div>
 
-		<!-- step 3 -->
-		<h4 class="guide-headings">
-		3. Install A Display Manager		
-	</h4>
-		<p>Next up, we would need a Display Manager which would enable us to login to our Desktop Environments. 
-		Here let's instal sddm:	</p>
-		<div class="code">
-			<span id="sudo">sudo</span> pacman -S sddm
-		</div>
-		<!-- step 4 -->
-		<h4 class="guide-headings">
-		4. Install Fav Fetches
-	</h4>
-		<p>Next up, we would install some fetch commands for beautiful unixporn experience.</p>
-		<div class="code">
-			<span id="sudo">sudo</span> pacman -S neofetch archfetch cowsay lolcat
-			yay -S pfetch
-		</div>
-		<!-- complete -->
+        <!-- step 2 -->
+        <h4 class="guide-headings">2. Install A Desktop Environment</h4>
+        <p>To install Xfce4:</p>
+        <div class="code">
+          <span id="sudo">sudo</span> pacman -S xfce4 xfce4-goodies
+        </div>
 
-		<h4 class="guide-headings">
-			Conclusion
-		</h4>
-		<p>
-			A vanilla Arch Linux installation gives you your base operating system with no utilities, allowing you to choose what you want your Operating System to behave like. This allows the user to have complete access over their operating system.
+        <!-- step 3 -->
+        <h4 class="guide-headings">3. Install A Display Manager</h4>
+        <p>
+          Next up, we would need a Display Manager which would enable us to
+          login to our Desktop Environments. Here let's instal sddm:
+        </p>
+        <div class="code"><span id="sudo">sudo</span> pacman -S sddm</div>
+        <!-- step 4 -->
+        <h4 class="guide-headings">4. Install Fav Fetches</h4>
+        <p>
+          Next up, we would install some fetch commands for beautiful unixporn
+          experience.
+        </p>
+        <div class="code">
+          <span id="sudo">sudo</span> pacman -S neofetch archfetch cowsay lolcat
+          <br>
+          <span id="sudo">yay</span> -S pfetch
+        </div>
+         <!-- step 5 -->
+         <h4 class="guide-headings">4. Install Visual Studio Code</h4>
+         <p>
+           Now let's install VS Code for developement purposes.
+         </p>
+         <div class="code">
+          <span id="sudo">yay </span>-S visual-studio-code-bin
+         </div>
+        <!-- complete -->
 
-A vanilla installation leaves you with nothing more than just a black screen which is for you to customize. In this module, we’ll be walking through the essential things to do after installing Arch Linux.
-		</p>
-
-		</div>
-
-	</div>
-</body>
+        <h4 class="guide-headings" id="conclusion">Conclusion</h4>
+        <p>
+          A vanilla Arch Linux installation gives you your base operating system
+          with no utilities, allowing you to choose what you want your Operating
+          System to behave like. This allows the user to have complete access
+          over their operating system. A vanilla installation leaves you with
+          nothing more than just a black screen which is for you to customize.
+          In this module, we’ll be walking through the essential things to do
+          after installing Arch Linux.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

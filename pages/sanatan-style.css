@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-image {
+  width: 100vw;
+  height: 63vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../assets/statue7.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  color: white;
+}
+
+.navbar {
+  margin: 1.5% 3.8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navbar .menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-gap: 1.5rem;
+}
+.navbar ul a {
+  font-family: "Roboto", sans-serif;
+  font-family: "Sen", sans-serif;
+  text-decoration: none;
+  color: rgba(21, 69, 226, 0.945);
+  font-weight: 700;
+  font-size: 1.12rem;
+}
+.main-body {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /*////margin-left: %;*/
+}
+.main-body ul {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0.72rem;
+}
+.main-body ul li {
+  list-style: none;
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  color: rgba(128, 128, 128, 0.767);
+}
+
+.main-body ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(128, 128, 128, 0.767);
+}
+.shloka{
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-style: italic;
+  text-align: left;
+  background-color: rgba(0.2, 0.2, 0.2, 0.2);
+  border-color: transparent;
+  border-radius: 5px;
+  height: auto;
+  padding: 1% 0%;
+  padding-right: 10%;
+  width: 56%;
+  word-spacing: 0.15rem;
+  font-family: "JetBrains Mono", monospace;
+  color: rgba(0, 0, 0, 0.733);
+
+}
+.shloka p{
+  border-left: 5px solid rgba(0, 0, 0, 0.733);
+  padding-left: 1.5%;
+}
+.title {
+  margin-top: 3%;
+  font-size: 2rem;
+  font-family: "Sen", sans-serif;
+}
+
+.main-body p {
+  text-align: left;
+  margin: 1% 10%;
+  font-family: 'Tinos', serif;
+  line-height: 1.9rem;
+  word-spacing: 0.12rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+#sudo {
+  color: royalblue;
+}
+
+.code {
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  text-align: left;
+  background-color: rgba(0.2, 0.2, 0.2, 0.2);
+  border-color: transparent;
+  border-radius: 5px;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 56%;
+  word-spacing: 0.15rem;
+  font-family: "JetBrains Mono", monospace;
+}
+.guide-headings {
+  font-size: 1.3rem;
+  font-family: "Sen", sans-serif;
+  text-align: left;
+  margin: 1% 10%;
+}
+.main-body img {
+  width: 60%;
+  height: 50%;
+  margin-top: 0.5%;
+}
+#conclusion {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+.img-right  {
+  float: right;    
+   margin: 0 0 0 15px;
+  }
+  .img-left  {
+    float: left;    
+     margin: 0 0 15px 0;
+    }
+@media only screen and (max-width: 600px) {
+  .title {
+    margin: 5% 10%;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+  }
+  .guide-headings {
+    font-size: 1.1rem;
+    margin-top: 3%;
+  }
+  .navbar{
+    display: none;
+  }
+  .navbar ul a{
+    font-size: 0.4rem;
+  }
+  .code {
+    font-size: 0.9rem;
+    padding: 2% 4%;
+    width: 75%;
+    margin-left: 10%;
+  }
+  .main-body img {
+    width: 80%;
+    height: 60%;
+    margin-top: 0.7%;
+  }
+  .main-body ul li a {
+    font-size: 0.7rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .main-body p {
+    font-size: 0.95rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.3rem;
+  }
+  .img-right  {
+    float: none;
+     margin: 5px 5px;
+    }
+    .img-left  {
+      float: none;    
+       margin: 5px 5px;
+      }
+}
