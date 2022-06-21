@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+		margin: 3% 3.8%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.navbar .menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	grid-gap: 1rem;
+}
+.main-body{
+width: 100%;
+height: auto;
+text-align: center;
+/*////margin-left: %;*/
+}
+.main-body ul{
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	grid-gap: 2rem;
+}
+.main-body ul li{
+	list-style: none;
+}
+.main-body ul li a{
+	text-decoration: none;
+	list-style: none;
+	color: grey;
+}
+
+.title{
+	margin-top: 3%;
+font-size: 2rem;
+}
+.main-image img{
+	width: 60%;
+	height: 50%;
+	margin-top: 1%;
+}
+.main-body p{
+	text-align: left;
+	margin: 1% 10%;
+}
+#sudo{
+	color: royalblue;
+}
+.code{
+	margin-left: 20%;
+	margin-top: 2%;
+	text-align: left;
+	background-color: rgba(0.2, 0.2, 0.2, 0.2);
+	border-color: transparent;
+	border-radius: 5px;
+	height: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	width: 56%;
+}
+.guide-headings{
+	font-size: 1.3rem;
+	text-align: left;
+	margin: 1% 10%;}
+.guide-image {
+	width: 60%;
+	height: 50%;
+	margin-top: 0.5%;
+}
+
+@media only screen and (max-width: 600px) {
+	.title{
+		font-size: 1.5rem;
+	}
+	.guide-headings{
+		font-size: 1rem;
+	}
+	.main-body p{
+		font-size: 0.7rem;
+	}
+} 
