@@ -85,6 +85,13 @@ font-size: 2rem;
 	.guide-headings{
 		font-size: 1rem;
 	}
+	.code{
+		font-size: 0.9rem;
+	}
+	.main-body ul li a{
+		font-size: 0.7rem;
+}
+
 	.main-body p{
 		font-size: 0.7rem;
 	}
