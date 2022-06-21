@@ -42,15 +42,20 @@ text-align: center;
 .title{
 	margin-top: 3%;
 font-size: 2rem;
+    font-family: 'Sen', sans-serif;
 }
 .main-image img{
 	width: 60%;
 	height: 50%;
 	margin-top: 1%;
 }
+
 .main-body p{
 	text-align: left;
 	margin: 1% 10%;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+	word-spacing: 0.1rem;
 }
 #sudo{
 	color: royalblue;
@@ -66,10 +71,14 @@ font-size: 2rem;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-left: 2%;
-	width: 56%;
+	width: 56%;	    
+	word-spacing: 0.15rem;
+	font-family: 'JetBrains Mono', monospace;
+
 }
 .guide-headings{
 	font-size: 1.3rem;
+	    font-family: 'Sen', sans-serif;
 	text-align: left;
 	margin: 1% 10%;}
 .guide-image {
@@ -80,19 +89,32 @@ font-size: 2rem;
 
 @media only screen and (max-width: 600px) {
 	.title{
+		margin: 5% 10%;
+		margin-bottom: 0;
 		font-size: 1.5rem;
 	}
 	.guide-headings{
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 	.code{
 		font-size: 0.9rem;
+		padding: 2% 4%;
+				width: 75%;
+				margin-left: 10%;
+
+	}
+	.guide-image{
+		width: 80%;
+		height: 60%;
+		margin-top: 0.7%;
 	}
 	.main-body ul li a{
 		font-size: 0.7rem;
+	font-family: 'Roboto', sans-serif;
 }
-
 	.main-body p{
-		font-size: 0.7rem;
+		font-size: 0.8rem;
+			font-family: 'Roboto', sans-serif;
+
 	}
 } 
