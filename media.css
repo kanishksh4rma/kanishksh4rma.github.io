@@ -1,0 +1,112 @@
+/* 
+font-family: 'Source Sans 3', sans-serif; */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    /* color: #E7E7E7;
+    background-color: #171C28; */
+    color: #171C28;
+    background-color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+    text
+}
+
+.main-page {
+
+    width: 45%;
+    text-align: left;
+    margin-left: 8%;
+    font-size: 1.7rem;
+    letter-spacing: 0.03rem;
+    line-height: 2.7rem;
+    height: 90vh;
+
+}
+
+.main-page #getintouch {
+    font-size: 1.4rem;
+}
+
+.main-page br {
+    margin-top: 20%;
+}
+
+.main-page a {
+    text-decoration: underline;
+    text-decoration-color: #007bff;
+    cursor: pointer;
+}
+
+.toggle {
+    margin-bottom: 8%;
+    text-align: end;
+    margin-right: 5%;
+    margin-top: 0.7%;
+}
+
+.header {
+    margin-bottom: 5%;
+    text-align: center;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-size: 2rem;
+}
+
+.card-container {
+    margin: 3% 5%;
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    height: 24rem;
+    margin-bottom: 8%;
+
+}
+
+.card-container .card {
+    text-align: center;
+}
+
+.card-container .card img {
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+}
+
+.card-container .card p {
+
+    margin-top: 0.5%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.03rem;
+}
+
+.card-container .card h3 {
+    margin-top: 1.3%;
+}
+
+.card-container .card .card-header {}
+.choices {
+    display: flex;
+    flex-direction: column;
+    margin: 1.8% 8%;
+    height: 10vh;
+    font-size: 1.5rem;
+    
+}
+.choices h3{
+    margin-bottom: 0.7%;
+}
+.choices a{
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+.choices a:hover{
+    
+    color: #007bff;
+}
+::selection {
+    color: #171C28;
+    background: #ffdc00;
+}
